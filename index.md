@@ -120,7 +120,11 @@ This should work only when the presentation is hosted online. Youtube does not a
 - Copy this template
 - Setup github pages to deploy from a branch. Choose main branch. 
   - There is no workflow, so that what you see local is what you get online as a static html. 
-- Once you are done with your presentation, render it to html locally. Make sure the file saved is index.html. On VS Code, you can just use the marp icon on the top right. Commit changes to the remote repo. Done! Page should be online at [user-name].github.io/[repo-name]
+- Once you are done with your presentation, render it to html locally.
+  - On VS Code, you can just use the marp icon on the top right. 
+  - Make sure the file saved is index.html.  
+- Commit changes to the remote repo.
+- Done! Page should be online at [user-name].github.io/[repo-name] after a few minutes.
 
 ---
 
