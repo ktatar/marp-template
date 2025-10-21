@@ -111,7 +111,7 @@ This should work only when the presentation is hosted online. Youtube does not a
 
 # Inline HTML commands works 
 
-<p style="font-size:64px;color:red;"> Text can be changed for example </p>
+<p style="font-size:64px;color:red;"> Text can be <span style="font-size:48px;color:black;">changed</span> for example </p>
 
 ---
 
