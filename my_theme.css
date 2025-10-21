@@ -84,11 +84,18 @@ table, tr, td, th {
   /* border: 0 !important; */
 }
 
-video {
+video, iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+section.columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
 section.no_border{
   td, th {
   font-size: 18px; /* Set the font size to 16 pixels */
@@ -141,13 +148,5 @@ section.transition2 strong {
   color: rgb(10, 100, 235);
   color: rgb(161, 240, 3);
 
-}
-
-section.tat {
-  td, th {
-  font-size: 48px; /* Set the font size to 16 pixels */
-  font-weight: 200;
-  border: 0 !important;
-}
 }
 

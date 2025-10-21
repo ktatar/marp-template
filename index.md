@@ -36,6 +36,37 @@ This is a list:
 | **Project** |Project Proposal| Design Iterations | Final Prototype | Reflections |
 
 ---
+<!-- _class: no_border -->
+
+# This is the same table without borders
+
+| Activities  |  |  | | |
+|:---|---|---|---|---|
+| **Lectures** | Introduction to Art and Technology | Introduction to AI and ML | Creativity, Group work, and Tools for Innovation |
+| **Tutorials** | Creative Coding with Sound (PureData) | Multimedia Design with TouchDesigner | Deep Learning for Multimedia | Interactive ML with Physical Computing |
+| **Project** |Project Proposal| Design Iterations | Final Prototype | Reflections |
+
+See how *Activities* are not bold now. That is because th class is updated in section.no_border class in my_theme.css  
+
+---
+<!-- _class: columns -->
+
+<div>
+
+## Two column slide
+
+Originally solution from <https://github.com/orgs/marp-team/discussions/192#discussioncomment-1516155>
+
+</div>
+<div>
+
+## Can't believe this works. YOLO
+
+If you are brave for more sections, here is an online tool for css grids: https://grid.layoutit.com/
+
+</div>
+
+---
 
 # Image on the left
 
@@ -84,10 +115,6 @@ This should work only when the presentation is hosted online. Youtube does not a
 
 ---
 
-
-
----
 # ToDos
 
 - Check Katex integration
-
