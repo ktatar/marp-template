@@ -115,6 +115,10 @@ This should work only when the presentation is hosted online. Youtube does not a
 
 ---
 
+# <!--fit-->BIG TEXT
+
+---
+
 # How to export to github pages? 
 
 - Copy this template
