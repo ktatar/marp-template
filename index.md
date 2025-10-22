@@ -132,7 +132,7 @@ This should work only when the presentation is hosted online. Youtube does not a
 
 ---
 
-# ToDos
+# Latex Math friendly
 
 ## Inline math
 
@@ -152,3 +152,25 @@ $$
 </br>
 
 <small>[1] More details: https://github.com/marp-team/marp/blob/main/website/docs/guide/math-typesetting.md </small>
+
+---
+
+# Videos need to be formatted for web
+
+You can use ffmpeg locally for this.
+
+---
+
+# FFMPEG continued
+
+I haven't tried this solution yet.
+
+WebM:
+
+`ffmpeg -i my-original-video.wmv -f webm -vcodec libvpx-vp9 -vb 1024k my-new-video.webm`
+
+MP4: 
+
+`ffmpeg -i my-original-video.wmv -vcodec libx264 -f mp4 -vb 1024k -preset slow my-new-video.mp4`
+
+<small>[1] Source: https://jshakespeare.com/encoding-browser-friendly-video-files-with-ffmpeg/ </small>
