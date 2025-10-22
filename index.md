@@ -159,6 +159,26 @@ $$
 
 You can use ffmpeg locally for this.
 
+`ffmpeg -i input.mp4 -c:v libvpx-vp9 -crf 30 -b:v 0 output.webm` 
+
+note: tested and works
+
+<small>[1] Source: https://jshakespeare.com/encoding-browser-friendly-video-files-with-ffmpeg/ </small>
+
+---
+
+# FFMPEG continued: another solution
+
+fast and efficient h264 for the web :
+
+`ffmpeg -i in.mp4 -c:v libx264 -profile:v high -preset slow -crf 24 -c:a aac -b:a 96k -movflags +faststart out.mp4`
+
+More efficient but slower with VP9/webm
+
+`ffmpeg -i in.mp4 -c:v libvpx-vp9 -crf 33 -b:v 0 -c:a libopus -vbr on -b:a 64k out.webm`
+
+<small>[1] https://www.reddit.com/r/ffmpeg/comments/8kxjhz/encoding_video_for_my_website/ </small>
+
 ---
 
 # FFMPEG continued
