@@ -134,4 +134,21 @@ This should work only when the presentation is hosted online. Youtube does not a
 
 # ToDos
 
-- Check Katex integration
+## Inline math
+
+Render inline math such as $ax^2+bc+c$ [1].
+
+## Math block
+
+$$ I_{xx}=\int\int_Ry^2f(x,y)\cdot{}dydx $$
+
+$$
+f(x) =
+  \int_{-\infty}^\infty
+  \hat f(\xi)\,e^{2 \pi i \xi x}
+  \,d\xi
+$$
+
+</br>
+
+<small>[1] More details: https://github.com/marp-team/marp/blob/main/website/docs/guide/math-typesetting.md </small>
