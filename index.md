@@ -4,7 +4,7 @@ theme: my_theme
 math: katex
 paginate: true
 ---
-<!-- footer: ![width:600](chalmers-ugot.jpg) -->
+<!-- footer: ![width:100](chalmers-logo.png) -->
 <!-- _color: black -->
 
 # Cool title with a Background
