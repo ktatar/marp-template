@@ -3,10 +3,8 @@ marp: true
 theme: my_theme
 math: katex
 paginate: true
-
 ---
-footer: ![image](chalmers-ugot.jpg)
----
+<!-- footer: ![width:50%](chalmers-ugot.jpg) -->
 <!-- _color: black -->
 
 # Cool title with a Background
