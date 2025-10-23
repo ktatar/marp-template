@@ -6,7 +6,7 @@ paginate: true
 
 ---
 header:
-footer: ![]
+footer: ![image](chalmers-ugot.jpg)
 ---
 <!-- _color: black -->
 
