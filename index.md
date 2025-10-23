@@ -5,7 +5,6 @@ math: katex
 paginate: true
 
 ---
-header:
 footer: ![image](chalmers-ugot.jpg)
 ---
 <!-- _color: black -->
