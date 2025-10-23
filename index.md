@@ -5,14 +5,7 @@ math: katex
 paginate: true
 ---
 
-<style>
-img[alt~="center"] {
-  display: block;
-  margin: 0 auto;
-}
-</style>
-
-<!-- footer: <small><i style="text-align:top">AI in Computational Arts, Music, and Games </small></i> ![width:300](chalmers-gu.png) -->
+<!-- footer: <small><i style="font-size: 8pt;font-weight:500;color:black">AI in Computational Arts, Music, and Games </small></i> <p> ![width:350](chalmers-gu.png)</p> -->
 <!-- _color: black -->
 
 # Cool title with a Background
