@@ -4,7 +4,7 @@ theme: my_theme
 math: katex
 paginate: true
 ---
-<!-- footer: <span style="text-align:center"> ![width:700](chalmers-gu.png) </span> -->
+<!-- footer:  ![width:700](chalmers-gu.png) -->
 <!-- _color: black -->
 
 # Cool title with a Background
@@ -111,7 +111,7 @@ This should work only when the presentation is hosted online. Youtube does not a
 
 # Inline HTML commands works 
 
-<p style="font-size:64px;color:red;"> Text can be <span style="text-align:right;font-size:48px;color:black;">changed</span> for example </p>
+<p style="text-align: center;font-size:64px;color:red;"> Text can be <span style="font-size:48px;color:black;">changed</span> for example </p>
 
 ---
 
