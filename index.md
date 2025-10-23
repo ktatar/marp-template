@@ -4,7 +4,7 @@ theme: my_theme
 math: katex
 paginate: true
 ---
-<!-- footer: <span justify=> ![width:700](chalmers-gu.png) </span> -->
+<!-- footer: <span style="justify:right"> ![width:700](chalmers-gu.png) </span> -->
 <!-- _color: black -->
 
 # Cool title with a Background
