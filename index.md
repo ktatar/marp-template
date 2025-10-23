@@ -6,7 +6,7 @@ paginate: true
 
 ---
 header:
-footer: 
+footer: ![]
 ---
 <!-- _color: black -->
 
