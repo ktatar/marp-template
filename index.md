@@ -5,6 +5,9 @@ math: katex
 paginate: true
 
 ---
+header:
+footer: 
+---
 <!-- _color: black -->
 
 # Cool title with a Background
