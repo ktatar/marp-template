@@ -40,8 +40,6 @@ OG credentials:
   
 }
 
-footer img { vertical-align: bottom; }
-
 ul {list-style-type: "-";}
 
 h1 {
@@ -152,10 +150,16 @@ section.transition2 strong {
 
 }
 
-section.centered {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
+img[alt~="align-right"] {
+    float: right;
+}
 
+img[alt~="align-left"] {
+    float: left;
+}
+
+  img[alt~='align-center'] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

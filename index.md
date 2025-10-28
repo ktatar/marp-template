@@ -49,7 +49,6 @@ This is a list:
 
 See how *Activities* are not bold now. That is because th class is updated in section.no_border class in my_theme.css  
 
-
 ---
 <!-- _class: columns -->
 
@@ -79,6 +78,24 @@ If you are brave for more sections, here is an online tool for css grids: https:
 # AND Image on the right
 
 ![bg right](fuse.jpg)
+
+---
+
+# Image aligned on the left
+
+![align-left width:400](fuse.jpg)
+
+---
+
+# Image aligned on the right
+
+![align-right width:400](fuse.jpg)
+
+---
+
+# Image aligned at the center
+
+![align-center width:400](fuse.jpg)
 
 ---
 
