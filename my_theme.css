@@ -152,3 +152,10 @@ section.transition2 strong {
 
 }
 
+section.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+

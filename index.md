@@ -49,6 +49,7 @@ This is a list:
 
 See how *Activities* are not bold now. That is because th class is updated in section.no_border class in my_theme.css  
 
+
 ---
 <!-- _class: columns -->
 
