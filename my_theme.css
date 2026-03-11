@@ -106,6 +106,10 @@ section.columns {
     gap: 1rem;
   }
 
+section.columns h2 {
+  font-weight: 200;
+}
+
 section.no_border{
   td, th {
   font-size: 18px; /* Set the font size to 16 pixels */
