@@ -23,6 +23,8 @@ OG credentials:
 /* to change defaults check: https://github.com/sindresorhus/github-markdown-css/blob/main/github-markdown.css */
 
 :root {
+  width: 1280px;
+  height: 720px;
   font-family: 'IBM Plex Mono', 'Space Mono', monospace;
   font-weight: initial;
   --italic-background-color   : rgba(214, 25, 66, 0.144);
@@ -46,7 +48,7 @@ ul {list-style-type: "-";}
 
 /* Reduce padding between content and slide borders */
 section {
-  padding: 10vw;
+  padding: 10%;
 }
 
 h1 {
