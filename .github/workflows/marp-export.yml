@@ -34,8 +34,8 @@ jobs:
 
       - name: Export index.md to HTML and PDF
         run: |
-          npx @marp-team/marp-cli@latest index.md --html --output index.html --allow-local-files
-          npx @marp-team/marp-cli@latest index.md --pdf --output index.pdf --allow-local-files
+          npx @marp-team/marp-cli@latest index.md --html --output index.html --allow-local-files --theme-set ./my_theme.css
+          npx @marp-team/marp-cli@latest index.md --pdf --output index.pdf --allow-local-files --theme-set ./my_theme.css
 
       - name: Commit exported files
         uses: stefanzweifel/git-auto-commit-action@v5
