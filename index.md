@@ -36,6 +36,8 @@ This is a list:
 | **Tutorials** | Creative Coding with Sound (PureData) | Multimedia Design with TouchDesigner | Deep Learning for Multimedia | Interactive ML with Physical Computing |
 | **Project** |Project Proposal| Design Iterations | Final Prototype | Reflections |
 
+Text border size is set in section class *padding: 10vw* in my_theme.css
+
 ---
 <!-- _class: no_border -->
 
