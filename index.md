@@ -6,7 +6,6 @@ paginate: true
 ---
 
 <!-- footer: <small><i>AI in Computational Arts, Music, and Games </small></i> <p> ![width:350](chalmers-gu.png)</p> -->
-<!-- _color: black -->
 
 # Cool title with a Background
 
