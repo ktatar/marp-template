@@ -18,7 +18,7 @@ https://marpit.marp.app/directives?id=local-directives-1
 
 ---
 
-# What is TRA 385?
+## What is TRA 385?
 
 This is a list:
 
@@ -28,7 +28,7 @@ This is a list:
 
 ---
 
-# This is a table 
+## This is a table 
 
 | Activities  |  |  | | |
 |:---|---|---|---|---|
@@ -41,7 +41,7 @@ Text border size is set in section class *padding: 5%* in my_theme.css
 ---
 <!-- _class: no_border -->
 
-# This is the same table without borders
+## This is the same table without borders
 
 | Activities  |  |  | | |
 |:---|---|---|---|---|
@@ -71,19 +71,19 @@ If you are brave for more sections, here is an online tool for css grids: https:
 
 ---
 
-# Image on the left
+## Image on the left
 
 ![bg left](fuse.jpg)
 
 ---
 
-# AND Image on the right
+## AND Image on the right
 
 ![bg right](fuse.jpg)
 
 ---
 
-# Image aligned on the left
+## Image aligned on the left
 
 ![align-left width:400](fuse.jpg)
 
