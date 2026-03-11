@@ -15,12 +15,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: "20"
 
@@ -38,7 +38,7 @@ jobs:
           npx @marp-team/marp-cli@latest index.md --pdf --output index.pdf --allow-local-files --theme-set ./my_theme.css
 
       - name: Commit exported files
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: export Marp slides"
           file_pattern: index.html index.pdf
