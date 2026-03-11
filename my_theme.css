@@ -1,5 +1,7 @@
 /* @theme my_theme */
 
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap");
+
 /*
 originally sourced from https://github.com/cunhapaulo/marpstyle/blob/main/style/socrates.css 
 OG credentials:
@@ -21,7 +23,7 @@ OG credentials:
 /* to change defaults check: https://github.com/sindresorhus/github-markdown-css/blob/main/github-markdown.css */
 
 :root {
-  font-family: 'IBM Plex Mono Light', 'Space Mono', monospace;
+  font-family: 'IBM Plex Mono', 'Space Mono', monospace;
   font-weight: initial;
   --italic-background-color   : rgba(214, 25, 66, 0.144);
   --italic-background-color   : rgba(8, 206, 255, 0.3);
@@ -52,7 +54,7 @@ h1 {
   padding-bottom: 2mm;
   margin-bottom: 12mm;
   font-weight: 300;
-  font-family: 'IBM Plex Mono Light', monospace;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 h2 {

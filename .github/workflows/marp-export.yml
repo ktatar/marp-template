@@ -24,6 +24,14 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Install fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-ibm-plex fonts-oflb-asana-math fonts-dejavu-core
+
+      - name: Refresh font cache
+        run: fc-cache -f
+
       - name: Export index.md to HTML and PDF
         run: |
           npx @marp-team/marp-cli@latest index.md --html --output index.html --allow-local-files
