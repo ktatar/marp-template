@@ -15,6 +15,8 @@ The code above the title is a local directive:
 
 https://marpit.marp.app/directives?id=local-directives-1
 
+QR code generator: https://blgardner.github.io/prism.tools/tools/qr-generator.html
+
 ---
 
 ## What is TRA 385?
