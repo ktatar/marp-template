@@ -42,6 +42,11 @@ OG credentials:
 
 ul {list-style-type: "-";}
 
+/* Reduce padding between content and slide borders */
+section {
+  padding: 30px;
+}
+
 h1 {
   color:rgba(78, 78, 80, 0.814);
   padding-bottom: 2mm;
