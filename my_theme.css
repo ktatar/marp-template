@@ -49,6 +49,7 @@ ul {list-style-type: "-";}
 /* Reduce padding between content and slide borders */
 section {
   padding: 5%;
+  padding-top: 2%;
 }
 
 h1 {
