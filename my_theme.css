@@ -52,6 +52,12 @@ section {
   padding-top: 5%;
 }
 
+section footer,
+section footer * {
+  color: black !important;
+  opacity: 1 !important;
+}
+
 h1 {
   color:rgba(78, 78, 80, 0.814);
   padding-bottom: 2mm;
