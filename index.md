@@ -17,6 +17,8 @@ https://marpit.marp.app/directives?id=local-directives-1
 
 QR code generator: https://blgardner.github.io/prism.tools/tools/qr-generator.html
 
+https://opensourcetoolkit.com/qr-generator
+
 ---
 
 ## What is TRA 385?
