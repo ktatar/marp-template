@@ -191,6 +191,37 @@ note: tested and works
 
 ---
 
+# We can embed websites
+
+<div
+  style="
+    width: 100%;
+    height: 70vh;
+    max-height: 400px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+  "
+>
+  <iframe
+    src="https://meta-benjolin.com/"
+    title="AI Dungeon"
+    style="
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    "
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    allowfullscreen
+  ></iframe>
+</div>
+
+---
+
 # FFMPEG continued: another solution
 
 fast and efficient h264 for the web :
