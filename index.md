@@ -249,3 +249,14 @@ MP4:
 `ffmpeg -i my-original-video.wmv -vcodec libx264 -f mp4 -vb 1024k -preset slow my-new-video.mp4`
 
 <small>[1] Source: https://jshakespeare.com/encoding-browser-friendly-video-files-with-ffmpeg/ </small>
+
+---
+
+Downloading videos for offline backup:
+
+https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#format-selection-examples
+
+run on command line
+make sure ffmpeg is installed
+
+yt-dlp.exe [links goes here] -f "bv+ba/b" -t mp4
